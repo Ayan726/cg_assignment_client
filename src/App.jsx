@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import { useTaskStore } from "./store/TaskStore";
+import { useTaskStore } from "./store/taskStore";
 import { createTask, readOneTask, updateTask, deleteTask } from "./api/Tasks";
 import correct from "../public/correct.png";
 import remove from "../public/remove.png";
